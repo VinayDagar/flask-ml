@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/boilerplate/node_modules
+/boilerplate//.pnp
+/boilerplate/.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/boilerplate/npm-debug.log*
+/boilerplate/yarn-debug.log*
+/boilerplate/yarn-error.log*
+
+#vs code
+.vscode
+
+#csv
+/model/*.csv
+/model/*.py
+/model/__pycache__
