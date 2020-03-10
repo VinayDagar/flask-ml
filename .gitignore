@@ -22,6 +22,8 @@
 /boilerplate/yarn-debug.log*
 /boilerplate/yarn-error.log*
 
+/__pycache__
+
 #vs code
 .vscode
 
